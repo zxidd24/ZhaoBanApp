@@ -1,0 +1,27 @@
+# 本地环境（SDK / Gradle 分发包，体积大且可重新下载）
+_toolchain/
+local.properties
+keystore/
+keystore.properties
+
+# Gradle
+.gradle/
+build/
+app/build/
+app/schemas/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# 其他
+.DS_Store
+.workbuddy/
+
+# Kotlin 编译日志
+.kotlin/
